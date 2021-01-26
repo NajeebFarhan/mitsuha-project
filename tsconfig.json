@@ -1,11 +1,9 @@
 {
 	"compilerOptions": {
-		"outDir": "build/",
-		"resolveJsonModule": true,
-		"target": "ES5"
-  },
+	    "outDir": "build"
+     },
   "exclude": [
-   	"node_modules/",
-   	"tests/"
-   ]
+  	"node_modules/",
+  	"tests/"
+  ]
 }
