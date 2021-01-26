@@ -1,7 +1,13 @@
 {
 	"compilerOptions": {
-	    "outDir": "build"
-     },
+		"baseUrl": "src",
+		"outDir": "build",
+		"strict": false,
+		"paths": {
+			"@Commands": ["commands/*"],
+			"@Handlers": ["handlers/"]
+		}
+  },
   "exclude": [
   	"node_modules/",
   	"tests/"
