@@ -1,15 +1,8 @@
 {
-	"compilerOptions": {
-		"baseUrl": "src",
-		"outDir": "build",
-		"strict": false,
-		"paths": {
-			"@Commands": ["commands/*"],
-			"@Handlers": ["handlers/"]
-		}
+  "compilerOptions": {
+		"target": "ES5",
+    "allowJs": true,
+    "outDir": "build"
   },
-  "exclude": [
-  	"node_modules/",
-  	"tests/"
-  ]
+  "include": ["src"]
 }
