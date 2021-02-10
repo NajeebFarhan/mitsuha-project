@@ -1,0 +1,10 @@
+export const name = 'Mitsuha';
+export const prefix = 'y.';
+export const owner = '601613637551128623';
+export const invite_url = 'https://discord.com/oauth2/authorize?client_id=749640517549293729&permissions=205323366&scope=bot';
+export const perms = '205323366';
+export const github = 'https://github.com/theRealAyan/mitsuha-project';
+export const token = 'NzY0NzA5NjIwMjY2MDQxMzY1.X4KNVQ.za-wN64dzXhF5egJIG4ph81JidY';
+export const version = 'v1.3-dev';
+export const tscV = '4.2.0-dev';
+export const instance = { dev: true };
